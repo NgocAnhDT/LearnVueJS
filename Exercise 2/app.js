@@ -20,7 +20,7 @@ const app = Vue.createApp({
             if (randomNumber < 0.5) {
                 this.resultRandom = `[${randomNumber.toFixed(2)}] Learn Vuejs`;
             } else {
-                this.resultRandom = `[${randomNumber.toFixed(2)}] Learn PHP`
+                this.resultRandom = `[${randomNumber.toFixed(2)}] Learn PHP`;
             }
         }
 
