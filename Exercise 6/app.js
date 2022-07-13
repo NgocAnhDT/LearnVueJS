@@ -15,8 +15,8 @@ const app = Vue.createApp({
             } else {
                 const attackValue = getRandomValue(5, 12);
                 this.monsterHealth -= attackValue;
+                this.attackPlayer();
             }
-            this.attackPlayer();
         },
         attackPlayer() {
             if (this.playerHealth < 9) {
